@@ -89,7 +89,7 @@
 							   return projection([d.lon, d.lat])[1];
 						   })
 						   .attr("r", function(d) {
-								return Math.sqrt(parseInt(d.population) * 0.0004);
+								return Math.sqrt(parseInt(d.feddans) * 0.0004);
 						   })
 						   //Set circle fill color to "feddans" value
 						   .style("fill", function(d) {
